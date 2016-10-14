@@ -1,0 +1,28 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/components/index/index",
+    "pages/components/document/index"
+  ],
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#00bcd4",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "演示",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "组件演示",
+        "pagePath": "pages/components/index/index"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "antd-wechat",
+    "navigationBarTextStyle": "black"
+  }
+}

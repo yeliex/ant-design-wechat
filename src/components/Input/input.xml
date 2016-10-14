@@ -1,0 +1,18 @@
+<view class="ant-input-field">
+  <input
+          class="{{class}}"
+          value="{{value}}"
+          type="{{type==='password' ? 'text' : type}}"
+          password="{{password || type==='password'}}"
+          placeholder="{{placeholder}}"
+          placeholder-style="{{placeholder-style}}"
+          placeholder-class="{{placeholder-class}}"
+          disabled="{{disabled}}"
+          maxlength="{{maxlength}}"
+          auto-focus="{{auto-focus}}"
+          bindchange="{{bindchange}}"
+          bindinput="{{bindinput}}"
+          bindfocus="{{bindfocus}}"
+          bindblur="{{bindblur}}"
+  />
+</view>

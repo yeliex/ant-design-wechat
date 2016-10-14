@@ -1,0 +1,57 @@
+{
+  "name": "antd-wechat",
+  "version": "0.0.1",
+  "description": "A configurable Wechat MicroApp UI ",
+  "main": "index.js",
+  "scripts": {
+    "start": "labrador watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeliex/ant-design-wechat.git"
+  },
+  "keywords": [
+    "frontend",
+    "framework",
+    "ui",
+    "components",
+    "component",
+    "react-component",
+    "react",
+    "design",
+    "ant",
+    "wechat",
+    "microapp",
+    "weixin"
+  ],
+  "author": "yeliex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yeliex/ant-design-wechat/issues"
+  },
+  "homepage": "https://github.com/yeliex/ant-design-wechat#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-plugin-syntax-export-extensions": "^6.13.0",
+    "babel-plugin-transform-export-extensions": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-runtime": "^6.11.6",
+    "core-js": "^2.4.1",
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.0",
+    "labrador": "^0.5.0",
+    "less": "^2.7.1",
+    "regenerator-runtime": "^0.9.5"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "global": "^4.3.1"
+  }
+}
